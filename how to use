@@ -2,16 +2,16 @@
 python vmware_manager.py list
 
 # Démarrer une VM
-python vmware_manager.py start "C:\VMs\Kali\Kali.vmx"
+python vm_manager.py start "C:\\path\\to\\vm.vmx"
 
 # Créer un snapshot
-python vmware_manager.py snapshot "C:\VMs\Kali\Kali.vmx" snap_avant_test
+python vm_manager.py snapshot "C:\\path\\to\\vm.vmx" nom_snapshot
 
 # Lister les snapshots
-python vmware_manager.py listsnap "C:\VMs\Kali\Kali.vmx"
+python vmware_manager.py listsnap "C:\\path\\to\\vm.vmx" 
 
 # Restaurer un snapshot
-python vmware_manager.py revertsnap "C:\VMs\Kali\Kali.vmx" snap_avant_test
+python vmware_manager.py revertsnap "C:\\path\\to\\vm.vmx" snap_avant_test
 
 # Supprimer un snapshot
-python vmware_manager.py deletesnap "C:\VMs\Kali\Kali.vmx" snap_avant_test
+python vmware_manager.py deletesnap "C:\\path\\to\\vm.vmx" snap_avant_test
