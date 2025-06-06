@@ -1,0 +1,4 @@
+#Pour installer les dépendances : pip install -r requirements.txt
+#Assurez-vous que vmrun.exe est dans votre PATH. Il se trouve typiquement ici : C:\Program Files (x86)\VMware\VMware Workstation\vmrun.exe
+
+colorama
