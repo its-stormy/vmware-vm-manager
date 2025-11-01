@@ -13,5 +13,5 @@ Un outil en ligne de commande pour gérer vos machines virtuelles VMware Worksta
 
 1. Cloner le dépôt :
 ```bash
-git clone https://github.com/votre-nom/vmware-vm-manager.git
+git clone https://github.com/its-stormy/vmware-vm-manager.git
 cd vmware-vm-manager
